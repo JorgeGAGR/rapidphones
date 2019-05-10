@@ -1,0 +1,12 @@
+.u-contained-img{
+    max-width: 100%;
+    max-height: 100%;
+    &--main-section{
+        @include absCenter;
+    }
+    &--featured{
+        @include horAbsCenter;
+        position: absolute;
+        bottom: 2rem;
+    }
+}

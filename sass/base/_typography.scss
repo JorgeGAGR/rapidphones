@@ -1,0 +1,18 @@
+
+.secondary-heading{
+    font-size: 3.5rem;
+
+    &--main-section{
+        @include horAbsCenter;
+        top: 9rem;
+        text-align: center;
+    }
+
+    &--premium-section{
+    }
+
+    &--promotion{
+        font-size: 3.5rem;
+        font-weight: bolder;
+    }
+}

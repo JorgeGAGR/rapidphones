@@ -1,0 +1,40 @@
+@mixin responsive($breakpoint){
+    @if $breakpoint == phone{
+        @media (max-width: 22.90em){ // 360px
+            @content;
+        }
+    }
+    @if $breakpoint == small-desktop{
+        @media (max-width: 64em){ // 1024
+            @content;
+        }
+    }
+    @if $breakpoint == desktop{
+        @media (max-width: 85.3em){ // 1366
+            @content;
+        }
+    }
+    @if $breakpoint == default-desktop{
+        @media (max-width: 92em){ // 1440px
+            @content;
+        }
+    }
+}
+
+@mixin absCenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin horAbsCenter{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+@mixin verAbsCenter{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

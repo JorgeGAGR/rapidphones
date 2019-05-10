@@ -1,0 +1,14 @@
+{
+  "name": "phones",
+  "version": "1.0.0",
+  "description": "phones",
+  "main": "js/main.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

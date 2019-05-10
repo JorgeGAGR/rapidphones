@@ -1,0 +1,59 @@
+.menu-container-background{
+    transition: all 0.5s;
+    &--color1{
+        background: rgb(255,255,255);
+        background: linear-gradient(130deg, rgba(255,255,255,1) 0%, rgba(217,9,210,1) 0%, rgba(179,2,240,1) 34%, rgba(110,2,230,1) 100%);
+    }
+    &--color2{
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(217,9,210,1) 0%, rgba(179,2,240,1) 34%, rgba(110,2,230,1) 100%);
+    }
+}
+
+.main-section{
+    @include responsive(default-desktop){
+        background: rgb(217,9,210);
+        background: linear-gradient(250deg, rgba(217,9,210,1) 7%, rgba(179,2,240,1) 45%, rgba(110,2,230,1) 100%); 
+    }
+}
+
+.premium-section{
+    @include responsive(default-desktop){
+        background: rgb(255,255,255);
+        background: linear-gradient(230deg, rgba(255,255,255,1) 60%, rgba(217,9,210,1) 60%, rgba(179,2,240,1) 76%, rgba(110,2,230,1) 96%);
+    }
+}
+
+.featured-section{
+    @include responsive(default-desktop){
+        background-color: white;
+    }
+}
+
+.promotion-section{
+    @include responsive(default-desktop){
+        background: rgb(217,9,210);
+        background: linear-gradient(120deg, rgba(217,9,210,1) 7%, rgba(179,2,240,1) 45%, rgba(110,2,230,1) 100%); 
+    }
+}
+
+.footer{
+    @include responsive(default-desktop){
+        background: rgb(71,10,69);
+        background: linear-gradient(194deg, rgba(71,10,69,1) 0%, rgba(110,2,230,1) 100%);
+    }
+}
+
+.color1{
+    background-color: rgb(255,255,255);
+    background: linear-gradient(130deg, rgba(255,255,255,1) 0%, rgba(217,9,210,1) 0%, rgba(179,2,240,1) 34%, rgba(110,2,230,1) 100%);
+}
+.color2{
+    background-color: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(110,2,230,1) 34%, rgba(179,2,240,1) 100%);
+}
+
+.color3{
+    background: rgb(255,255,255);
+    background: linear-gradient(260deg, rgba(217,9,210,1) 0%, rgba(110,2,230,1) 100%);
+}

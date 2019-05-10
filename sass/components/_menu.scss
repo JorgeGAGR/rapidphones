@@ -1,0 +1,69 @@
+.menu-container{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    @include responsive(phone){
+        height: 8rem;
+        border-bottom: 1px solid grey;
+        &--logo-box{
+            @include verAbsCenter;
+            left: 3rem;
+            width: 30rem;
+            height: 3.6rem;
+        }
+
+        &--link-box{
+            @include absCenter;
+            &__ul{
+                & li{
+                    display: inline-block;
+                    font-size: 1.6rem;
+                    font-weight: bolder;
+                    &:not(:last-child){
+                        margin-right: 6rem;
+                    }
+                    & a{
+                        &,
+                        &:active,
+                        &:visited{
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }           
+            }
+        }
+    }
+    @include responsive(default-desktop){
+        height: 8rem;
+        border-bottom: 1px solid grey;
+        &--logo-box{
+            @include verAbsCenter;
+            left: 3rem;
+            width: 30rem;
+            height: 3.6rem;
+        }
+
+        &--link-box{
+            @include absCenter;
+            &__ul{
+                & li{
+                    display: inline-block;
+                    font-size: 1.6rem;
+                    font-weight: bolder;
+                    &:not(:last-child){
+                        margin-right: 6rem;
+                    }
+                    & a{
+                        &,
+                        &:active,
+                        &:visited{
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }           
+            }
+        }
+    }
+}

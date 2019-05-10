@@ -1,0 +1,28 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+@import "components/menu";
+@import "components/newsletter";
+@import "components/divider";
+@import "components/dropdown";
+@import "components/footer";
+@import "components/forms";
+@import "components/header";
+@import "components/input";
+@import "components/background";
+
+@import "layout/sections";
+
+@import "pages/home";
+@import "pages/about";
+@import "pages/resources.scss";
+@import "pages/contact.scss";
+
+
